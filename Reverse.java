@@ -14,9 +14,9 @@ for (int i = 0; i < a.length(); i++)
 System.out.println ();
 int middle =  a.length();
 if(middle%2==0)
-	System.out.println( " The middle character is "+ a.charAt(middle/2-1));
+	System.out.println( "The middle character is "+ a.charAt(middle/2-1));
 else
-	System.out.println( " The middle character is "+ a.charAt(middle/2));
+	System.out.println( "The middle character is "+ a.charAt(middle/2));
 
 }
 }
