@@ -5,15 +5,15 @@
 public class InOrder {
 public static void main (String[] args) {
 int max=0;
-int random = (int) (Math.random() * 10);
-while (max<10)
+int random = (int) (Math.random() * 9 +1);
+while (random > max )
 {
 	if (max < random)
 	{
-		System.out.println(random);
+		System.out.print(random+" ");
 		max=random;
 	}
-  random = (int) (Math.random() * 10);
+  random = (int) (Math.random() *9 +1);
 }
 }
 }
