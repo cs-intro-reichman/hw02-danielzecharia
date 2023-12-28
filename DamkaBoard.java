@@ -8,14 +8,14 @@ for (int i=1; i<=a; i++)
   {
   	for (int z=0; z<a; z++)
   	{
-  		if (i%2==0)
+  		if (i % 2 == 0)
   		System.out.print(" *");
   	    else
   		System.out.print("* ");
   	}
-  	System.out.println();
-  	
+  	System.out.println("");
+
   }
 
-	}
+}
 }
