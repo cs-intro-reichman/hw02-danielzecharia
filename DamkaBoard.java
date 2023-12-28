@@ -10,7 +10,7 @@ for (int i=1; i<=a; i++)
   		System.out.print(" ");
   	for (int z=0; z<a; z++)
   	{
-  		System.out.print(" * ");
+  		System.out.print("* ");
   	}
   	System.out.println();
   	
