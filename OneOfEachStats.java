@@ -24,7 +24,7 @@ Random generator = new Random(seed);
 	while ((ifboy==false)||(ifgirl==false))
  {
  	rnd = generator.nextDouble();
- 	if (a<0.5)
+ 	if (rnd<0.5)
  	{
  		ifboy=true;
  	}
