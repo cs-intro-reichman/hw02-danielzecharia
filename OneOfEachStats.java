@@ -53,15 +53,15 @@ Random generator = new Random(seed);
  System.out.println("Number of families with 2 children: "+n2);
  System.out.println("Number of families with 3 children: "+n3);
  System.out.println("Number of families with 4 children: "+n4);
- if(n1>n2)
+ if(n2>n3)
  {
- 	System.out.println("The most common number of children is 1.");
+ 	System.out.println("The most common number of children is 2.");
  }
  else
  {
- 	if(n2>n3)
+ 	if(n4>n3)
  	{
- 		System.out.println("The most common number of children is 2.");
+ 		System.out.println("The most common number of children is 4.");
  	}
  	else
  		System.out.println("The most common number of children is 3.");
