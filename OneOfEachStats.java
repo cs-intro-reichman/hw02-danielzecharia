@@ -10,19 +10,20 @@ import java.util.Random;
 public class OneOfEachStats {
 public static void main (String[] args) {
 int t= Integer.parseInt(args[0]);
+int seed = Integer.parseInt(args[1]);
+Random generator = new Random(seed); 
  int n4=0, n2=0,n3=0, sum=0,kids=0;
  boolean ifboy=false;
  boolean ifgirl=false;
  double a=0.0;
- int seed = Integer.parseInt(args[1]);
- Random generator = new Random(seed); 
+ 
+ 
 
  for( int i=0; i<t; i++)
  {
 	while ((ifboy==false)||(ifgirl==false))
  {
- 	a = (double)(Math.random()*1);
- 	double rnd = generator.nextDouble();
+ 	rnd = generator.nextDouble();
  	if (a<0.5)
  	{
  		ifboy=true;
