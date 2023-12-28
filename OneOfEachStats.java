@@ -15,7 +15,7 @@ Random generator = new Random(seed);
  int n4=0, n2=0,n3=0, sum=0,kids=0;
  boolean ifboy=false;
  boolean ifgirl=false;
- double rnd=0.0;
+ double rnd;
  
  
 
