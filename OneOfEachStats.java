@@ -61,7 +61,7 @@ Random generator = new Random(seed);
  {
  	if(n4>n3)
  	{
- 		System.out.println("The most common number of children is 4.");
+ 		System.out.println("The most common number of children is 4 or more.");
  	}
  	else
  		System.out.println("The most common number of children is 3.");
