@@ -52,7 +52,7 @@ Random generator = new Random(seed);
  System.out.println("Average: "+((double)sum/t)+" children to get at least one of each gender.");
  System.out.println("Number of families with 2 children: "+n2);
  System.out.println("Number of families with 3 children: "+n3);
- System.out.println("Number of families with 4 children: "+n4);
+ System.out.println("Number of families with 4 or more children: "+n4);
  if(n2>n3)
  {
  	System.out.println("The most common number of children is 2.");
@@ -67,11 +67,6 @@ Random generator = new Random(seed);
  		System.out.println("The most common number of children is 3.");
 
  }
-
-
-		
-
-
-		    
+	    
 	}
 }
